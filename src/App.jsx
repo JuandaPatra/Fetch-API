@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image } from "react-bootstrap";
+import {  Image } from "react-bootstrap";
 import axios from "axios";
 import "./App.css"
 
@@ -33,8 +33,6 @@ class App extends React.Component {
                 </div>
               );
             })}
-          {/* <div style={{paddingTop:"1vh", paddingBottom:"1vh",}} className="flex-cont">
-          </div> */}
         </div>
       </div>
     );
