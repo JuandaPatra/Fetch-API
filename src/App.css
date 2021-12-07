@@ -1,0 +1,29 @@
+
+
+.flex{
+  width: 65%;
+  height: 60vh;
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  margin: auto;
+  margin-bottom: 20vh;
+  margin-top: 20vh; 
+  /* background-color: tomato;  */
+  display:flex;
+  flex-direction:column ;
+  justify-content:center;
+  border: 1px solid black;
+  padding: 2% 0;
+}
+
+.flex-item{
+  display: flex;
+  width: 50vw;
+  margin: auto;
+  align-items: center;
+  /* margin-top: 3vh; */
+  /* margin-bottom: 3%; */
+  /* left:10vh; */
+  /* top:1vh; */
+}
